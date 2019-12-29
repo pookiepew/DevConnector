@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb://devconnector:devconnector@devdbcontainer:27017/devconnector"
+  "mongoURI": "mongodb://devconnector:devconnector@devdbcontainer:27017/devconnector",
+  "jwtSecret": "myveryverylongandsecurestringoftokens"
 }
