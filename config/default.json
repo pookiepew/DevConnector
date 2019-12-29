@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb://devconnector:devconnector@devdbcontainer:27017/devconnector"
+}
