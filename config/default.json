@@ -1,7 +1,0 @@
-{
-  "mongoURI": "mongodb://devconnector:devconnector@devdbcontainer:27017/devconnector",
-  "jwtSecret": "myveryverylongandsecurestringoftokens",
-  "githubClientId": "939ca691d66a8d6a9874",
-  "githubSecret": "b9c47d69f1a8d49353dad46334db8b70046964f8",
-  "yes": "no"
-}
