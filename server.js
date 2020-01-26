@@ -1,11 +1,27 @@
 const express   = require('express')
 const connectDB = require('./config/db')
+//! const cors      = require('cors')
 
 const app = express()
 
 connectDB()
 
+// const whitelist = ['http://devconnector.sorbo.rocks', 'http://dev.sorbo.rocks']
+
+// const corsOptions = {
+//   origin: function (origin, callback) {
+//     if (whitelist.indexOf(origin) !== -1) {
+//       callback(null, true)
+//     } else {
+//       callback(new Error('Not allowed by CORS'))
+//     }
+//   }
+// }
+
+
 //* Init middleware
+
+//! app.use(cors(corsOptions))
 
 app.use(express.json({ extended: false }))
 
